@@ -1,0 +1,73 @@
+/* src/Components/About.css */
+.about-section {
+    background-color: #f9f9f9;
+  }
+  
+  .about-heading {
+    font-family: Georgia;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .about-card {
+    background: linear-gradient(135deg, #ffffff, #e0f7fa);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .about-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #0056b3;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 768px) {
+    .about-card {
+      padding: 1.5rem;
+    }
+  
+    .about-heading {
+      font-size: 2rem;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }
+  

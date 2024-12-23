@@ -1,0 +1,74 @@
+/* src/Components/Projects.css */
+
+.projects-container {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    padding: 60px 0;
+  }
+  
+  .projects-heading {
+    font-size: 2.5rem;
+    font-family: Georgia;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+   
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 123, 255, 0.2);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    color: #007bff;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .project-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 500;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  

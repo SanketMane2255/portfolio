@@ -1,0 +1,102 @@
+/* Skill.css */
+
+.skills-container {
+    padding: 20px;
+    text-align: center;
+  
+    border-radius: 12px; /* Rounded corners for the container */
+  }
+  
+  .skills-row {
+    display: flex;
+    overflow-x: hidden; /* Hide the scrollbar */
+    padding: 20px 0; /* Padding for the row */
+    border: 2px solid #007bff; /* Border around the scrolling area */
+    border-radius: 12px; /* Rounded corners for the border */
+  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  .skill-card {
+    background-color: #ffffff; /* White background for each card */
+    border: 1px solid #dee2e6; /* Border color for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 20px;
+    min-width: 180px; /* Adjusted minimum width for cards */
+    max-width: 220px; /* Set a maximum width for cards */
+    margin: 0 10px; /* Margin between cards */
+    flex: 0 0 auto; /* Prevent shrinking */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 14px 12px 22px rgba(229, 229, 231, 0.821); /* Shadow effect */
+    cursor: pointer; /* Change cursor on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .icon {
+    font-size: 60px; /* Increased icon size for better visibility */
+    margin-bottom: 15px; /* Space between icon and text */
+  }
+  
+  /* Custom colors for each icon */
+  .react { color: #61dafb; }  /* React */
+  .css { color: #264de4; }    /* CSS */
+  .js { color: #f7df1e; }     /* JavaScript */
+  .html { color: #e34c26; }   /* HTML */
+  .bootstrap { color: #563d7c; } /* Bootstrap */
+  .node { color: #8cc84b; }   /* Node.js */
+  .git { color: #f1502f; }    /* Git */
+  .sass { color: #cc6699; }   /* Sass */
+  .python { color: #3776ab; } /* Python */
+  .figma { color: #f24e1e; }   /* Figma */
+  
+  h3 {
+    margin-top: 10px; /* Space above the skill name */
+    font-size: 1.2rem; /* Slightly larger font size */
+    color: #333; /* Darker text color for better readability */
+    transition: transform 0.3s; /* Smooth transition for text */
+  }
+  
+  .skill-card:hover h3 {
+    transform: translateY(-3px); /* Slight lift effect on skill name */
+  }
+  
+
+  .skills-heading {
+    font-size: 2rem; /* Size of the heading */
+    font-weight: 700;
+    color: #333;
+    padding: 0.1rem; /* Padding around the text */
+     /* Font family */
+    display: inline-block; /* Make the border wrap tightly around the text */
+    position: relative; /* Positioning for pseudo-elements */
+    z-index: 1; /* Ensure it's above the lines */
+    
+
+}
+
+/* Adding left and right lines */
+.skills-heading::before,
+.skills-heading::after {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    width: 70px; /* Length of the lines */
+    height: 3px; /* Thickness of the lines */
+    z-index: 1; /* Behind the heading */
+}
+
+.skills-heading::before {
+    left: -70px; /* Positioning for the left line */
+}
+
+.skills-heading::after {
+    right: -70px; /* Positioning for the right line */
+}

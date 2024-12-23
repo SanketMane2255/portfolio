@@ -1,0 +1,87 @@
+/* src/Components/Home.css */
+
+.home-container {
+    background-color: #f3f4f6;
+    padding: 3rem 1.5rem;
+    min-height: 100vh;
+  }
+  
+  .greeting {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .highlight1 {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .social-icons .icon-link {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 0 0.5rem;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icons .icon-link:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  
+  .button-group .btn-custom {
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .button-group .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .button-group .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-group .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .button-group .btn-primary:hover {
+    background-color: #1e7e34;
+    border-color: #1c7430;
+  }
+  
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.05);
+  }
+  
